@@ -16,7 +16,9 @@ int process_rcode(const int rcode)
 		case 0:
 			break;
 		case NARGO:
-			printf("Usage: \n"
+			printf("BMP Crop Rotate Stegano tool\n"
+                    "\n"
+                    "Usage: \n"
 					"bmp_tool crop-rotate ‹in-bmp› ‹out-bmp› ‹x› ‹y› ‹w› ‹h›\n"
 					"bmp_tool insert ‹in-bmp› ‹out-bmp› ‹key-txt› ‹msg-txt›\n"
 					"bmp_tool extract ‹in-bmp› ‹key-txt› ‹msg-txt›\n");
